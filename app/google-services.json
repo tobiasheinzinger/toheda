@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "735715844346",
+    "firebase_url": "https://toheda-253e0.firebaseio.com",
+    "project_id": "toheda-253e0",
+    "storage_bucket": "toheda-253e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735715844346:android:bbe9a7db1f223005",
+        "android_client_info": {
+          "package_name": "com.toheda.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735715844346-0v0lkgpi127uuktoomuc2ifuv1a0og2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgYX0nsrwE3uWRuzagvSYdVCSakz7gUiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ToHeDA</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_contacts">Contacts</string>
+
+    <string name="settings_activity_name">Settings</string>
+    <string name="contacts_activity_name">Contacts</string>
+
+    <string name="prompt_request_text">Request Text</string>
+    <string name="prompt_result">Result</string>
+    <string name="action_test_service">Test the service</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="prompt_email">Your email</string>
+
+    <string name="server_url">server_url</string>
+    <string name="simple_request">simple_request</string>
+    <string name="reset_button">reset_button</string>
+    <string name="verifying_server_dialog_title">Verifying Server</string>
+    <string name="verifying_server_dialog_message_ok">Server is running</string>
+    <string name="verifying_server_dialog_message_nok">Server is NOT running</string>
+    <string name="contacts_request">contacts_request</string>
+    <string name="title_activity_processes">Processes</string>
+    <string name="action_processes">Processes</string>
+    <string name="processes_request">processes_request</string>
+    <string name="action_refresh">refresh</string>
+    <string name="process_image_request">process_image_request</string>
+    <string name="title_activity_email_password">EmailPasswordActivity</string>
+    <string name="server_url_default_value">0</string>
+</resources>

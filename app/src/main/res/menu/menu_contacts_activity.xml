@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.toheda.app.ContactsActivity">
+    <item
+        android:id="@+id/action_addcontact"
+        android:icon="@android:drawable/ic_input_add"
+        android:onClick="addContact"
+        android:orderInCategory="100"
+        android:title="@string/action_processes"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_filter_options"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/contacts_known"
+                    android:checked="true"
+                    android:onClick="toggleContacts"
+                    android:title="known users" />
+                <item
+                    android:id="@+id/contacts_unknown"
+                    android:onClick="toggleContacts"
+                    android:title="unknown users" />
+                <item
+                    android:id="@+id/contacts_all"
+                    android:onClick="toggleContacts"
+                    android:title="all" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        android:onClick="refreshContacts"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+</menu>

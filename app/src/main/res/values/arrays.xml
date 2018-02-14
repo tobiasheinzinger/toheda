@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server_url_array">
+        <item>AWS</item>
+        <item>Tomcat Notebook Tobias</item>
+    </string-array>
+    <string-array name="server_url_values">
+        <item>http://toheda-env.twpxehaacp.eu-central-1.elasticbeanstalk.com/</item>
+        <item>http://TobiasNotebook:8080/toheda</item>
+    </string-array>
+</resources>
