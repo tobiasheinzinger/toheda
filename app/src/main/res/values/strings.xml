@@ -21,11 +21,12 @@
     <string name="verifying_server_dialog_message_ok">Server is running</string>
     <string name="verifying_server_dialog_message_nok">Server is NOT running</string>
     <string name="contacts_request">contacts_request</string>
-    <string name="title_activity_processes">Processes</string>
+    <string name="title_activity_processes">Actors</string>
     <string name="action_processes">Processes</string>
     <string name="processes_request">processes_request</string>
     <string name="action_refresh">refresh</string>
     <string name="process_image_request">process_image_request</string>
     <string name="title_activity_email_password">EmailPasswordActivity</string>
     <string name="server_url_default_value">0</string>
+    <string name="title_activity_temp">TEMPActivity</string>
 </resources>

@@ -11,19 +11,19 @@
             android:key="server_url"
             android:summary="%s"
             android:title="Server URL" />
-        <com.toheda.app.CustomizedEditTextPreference
+        <com.toheda.app.view.CustomizedEditTextPreference
             android:defaultValue="services/process-list"
             android:inputType="textUri"
             android:key="@string/processes_request"
             android:summary="Enter processes request url"
             android:title="Processes request url" />
-        <com.toheda.app.CustomizedEditTextPreference
+        <com.toheda.app.view.CustomizedEditTextPreference
             android:defaultValue="services/process-image"
             android:inputType="textUri"
             android:key="@string/process_image_request"
             android:summary="Enter process-image request url"
             android:title="Process-Image request url" />
-        <com.toheda.app.CustomizedEditTextPreference
+        <com.toheda.app.view.CustomizedEditTextPreference
             android:defaultValue="services/contacts"
             android:inputType="textUri"
             android:key="@string/contacts_request"
